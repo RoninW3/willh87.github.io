@@ -1,0 +1,86 @@
+/* Google Fonts utilized in this style */
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&family=Permanent+Marker&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap");
+/* Default browser override */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Black background for parent */
+body {
+  background: black;
+}
+/* Fixed NavBar with Links */
+div.navbar {
+  background: black;
+  min-height: 8vh;
+  width: 100%;
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+li {
+  float: left;
+  display: inline;
+  padding-inline-start: 20%;
+  margin-top: 1.5%;
+}
+a {
+  color: white;
+  /* background: rgb(0, 0, 0); */
+  /* border: black; */
+  /* border-radius: 5%; */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header fixed photo */
+div.headerPhoto {
+  min-height: 65vh;
+  color: white;
+}
+.headerPhoto {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.05)),
+    url(./images/anvilPexels.jpg) center bottom/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.paraOne,
+div.paraTwo,
+div.paraThree {
+  min-height: 50vh;
+  width: 33%;
+  float: left;
+  border: 0.1rem solid black;
+  display: flex;
+  align-items: center;
+  text-shadow: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+div.paraOne {
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.5)),
+    url(./images/bikes.JPG) center/cover no-repeat;
+  margin: 0.1%;
+}
+div.paraTwo {
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.5)),
+    url(./images/Amara.jpg) center/cover no-repeat;
+  margin: 0.1%;
+}
+div.paraThree {
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.5)),
+    url(./images/profile.JPG) center top/cover no-repeat;
+  margin: 0.1%;
+}
