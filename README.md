@@ -4,4 +4,4 @@ Thank you for visiting my personal page as I make the journey to become a full s
 
 Projects that have been completed will be uploaded and will range from HTML, CSS, JS, MERN stack, and others for the duration of the course to showcase my work.
 
-I will also be adding indepent projects and code as I make my journey into software development.
+I will also be adding independent projects and code as I make my journey into software development.
