@@ -41,7 +41,7 @@ li {
 a {
   color: #e4e4e4;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 150%;
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Header fixed photo */
@@ -58,7 +58,7 @@ div.headerPhoto {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 120%;
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
