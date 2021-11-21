@@ -17,8 +17,10 @@ body {
   );
 }
 /* Fixed NavBar with Links */
-div.navbar {
+.navbar {
+  overflow: hidden;
   background: #044343;
+  border-bottom: 0.1rem solid black;
   min-height: 3.5%;
   width: 100%;
   margin-top: 0;
@@ -38,25 +40,26 @@ li {
   margin-block-start: auto;
   padding: 0.5rem;
 }
+.contact {
+  float: right;
+}
 /* Links in Navbar */
-a {
+.navbar a {
+  background: none;
+  height: 100%;
   color: #e4e4e4;
   text-decoration: none;
   font-size: 150%;
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 a:hover {
-  background: rgb(0, 0, 0);
-  border: 0.1rem solid black;
-  border-radius: 8%;
-  color: white;
+  color: goldenrod;
 }
 /* Header fixed photo */
 div.headerPhoto {
   min-height: 65vh;
   color: #e4e4e4;
   outline: 0.2rem solid #044343;
-  outline-offset: +5px;
 }
 /* Large Anvil on page */
 .headerPhoto {
@@ -72,10 +75,12 @@ h1 {
   text-align: center;
   letter-spacing: 2px;
 }
+
 .profileBike {
   width: 30vw;
   margin: 100px auto;
   position: relative;
+  transform: rotate(-1.1deg);
 }
 .profileBike::before {
   content: "";
@@ -91,7 +96,10 @@ h1 {
 }
 .profileBike::after {
   content: "";
-  background: linear-gradient(#0443437a, rgba(34, 34, 34, 0.644));
+  background: linear-gradient(
+    rgba(218, 165, 32, 0.534),
+    rgba(34, 34, 34, 0.644)
+  );
   width: 100%;
   height: 100%;
   position: absolute;
