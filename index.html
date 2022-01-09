@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will's Portfolio</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- main css-->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- font awesome -->
+    <!-- <link
+    rel="stylesheet"
+    href="./fontawesome-free-5.15.4-web/css/all.min.css"
+  /> -->
+  <script src="https://kit.fontawesome.com/958a36a0a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->
+        <!-- floating nav bars-->
+          <span class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i></span>
+      <!-- end floating nav bars-->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+        </div>
+        <!-- links -->
+        <ul class="nav-items">
+          <li><a href="./about.html" class="nav-link">about</a></li>
+          <li><a href="./contact.html" class="nav-link">contact</a></li>
+          <li><a href="./projects.html" class="nav-link">projects</a></li>
+          <li><a href="https://xpro.mit.edu" class="nav-link">mit xpro</a></li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/william-hicks-925785144" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/willh87" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>     
+    </nav>
+    <!-- end navbar-->
+    <!-- header -->
+    <header class="header">
+        <div class="hero-container">
+            <!-- hero-->
+            <div class="hero-banner">
+            <h1>william hicks</h1>
+            <h4>full stack web development</h4>
+            <div class="underline"></div>
+            <div class="hero-btn-container">
+                <button class="btn hero-btn">explore</button>
+            </div>
+            </div>
+            <!-- end hero-->
+        </div>
+        <div class="hero-divider"></div>
+    </header>
+    <!-- end header -->
+    <!-- skills cards -->
+    <section class="section skills-section">
+        <!--section title-->
+        <div class="section-title">
+          <h2>services</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- end of section title-->
+        <div class="services-center section-center">
+          <!-- single service -->
+          <article class="service">
+            <i class="fas fa-code service-icon"></i>
+            <h4>front end</h4>
+            <div class="underline"></div>
+            <p>Front end development with skills in HTML5, CSS3, and Javascript. Fully interactive front ends to capture clients attention and provide positive user experiences. React coming soon!</p>
+          </article>
+          <!-- end of single service -->
+           <!-- single service -->
+           <article class="service">
+            <i class="fab fa-sketch service-icon"></i>
+            <h4>design</h4>
+            <div class="underline"></div>
+            <p>Vibrant colors and palattes for capturing your client's eye related to your project. Colors and design have a psychological impact, may sure it fits what you want.</p>
+          </article>
+          <!-- end of single service -->
+           <!-- single service -->
+           <article class="service">
+            <i class="fas fa-server service-icon"></i>
+            <h4>back end</h4>
+            <div class="underline"></div>
+            <p>Coming Soon! Express, MongoDB, and Node.js! Full server side and back end support. I am always improving my knowledge base and skillset.</p>
+          </article>
+          <!-- end of single service -->
+        </div>
+      </section>
+
+    <!-- end skills cards -->
+    <!-- about section-->
+    <section class="section about">
+        <div class="section-center about-center">
+          <!-- about img -->
+          <article class="about-img">
+            <img src="./images/profile1.jpg" class="hero-photo" alt="about img">
+          </article>
+          <!-- about info-->
+          <article class="about-info">
+            <!--section title-->
+            <div class="section-title about-title">
+              <h2>about</h2>
+              <div class="underline"></div>
+            </div>
+            <!-- end of section title-->
+            <p>Hey there! Thanks for visiting my portfolio. My name is William Hicks and I currently reside in Las Vegas, NV.</p>
+            <p>I am currently a student with MIT xPRO studying web development with emphasis on MERN. On this website you will find current and past projects with MIT xPRO, as well as independent projects I am always working on. Please feel free to browse and contact me!</p>
+            <a href="./about.html" class="btn">about me</a>
+          </article>
+        </div>
+      </section>
+    <!-- end about section -->
+    <!-- project flipper -->
+    <section class="section projects">
+        <div class="section-center projects-center">
+          <div class="project-title">
+            <h2>projects</h2>
+            <div class="underline"></div>
+            </div>
+                    <!-- project -->
+                    <article class="single-project">
+                      <div class="img-container">
+                        <img src="../pacman1.jpg" id="project-img" alt="">
+                      </div>
+                      <h4 id="project">Pacmen</h4>
+                      <p id="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus nihil maxime perferendis repudiandae? Nesciunt similique placeat esse iste ipsum quisquam?
+                      </p>
+                      <!--- prev next buttons -->
+                      <div class="button-container">
+                        <button class="prev-btn">
+                          <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next-btn">
+                          <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                      <!-- random button-->
+                      <button class="btn project-btn"><a href="./projects.html">View Projects</a></button>
+                    </article>
+        </div>
+    </section>
+    <!-- end project flipper -->
+    <!-- footer -->
+    <footer class="footer">
+        <!-- social icons-->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.facebook.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/william-hicks-925785144" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/willh87" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p>&copy; <span id="date"></span> will hicks. all rights reserved <br>
+        MIT license located in Github readme</p>
+      </footer>
+    <!-- end footer -->
+    <script src="./app.js"></script>
+</body>
+</html>
