@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Bus Tracker || Will Hicks</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- API mapbox-->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- map div-->
+<div id="map"></div>
+<!-- map overlay container -->
+<div class="map-overlay top">
+  <button class="btn"  onclick="move()">Show stops between MIT and Harvard</button>
+</div>
+<!-- JS -->
+<script src="./mapanimation.js"></script>
+</body>
+</html>
