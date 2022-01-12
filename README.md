@@ -3,17 +3,19 @@ PORTFOLIO
 
 #ABOUT
 
-Thank you for visiting my personal page as I make the journey to become a full stack developer. I am currently a student with MIT XPRO. 
+  Thank you for visiting my personal page as I make the journey to become a full stack developer. I am currently a student with MIT XPRO. 
 
-The portfolio is styled with CSS3 located in styles.css, also included is normalize.css which is MIT licensed This portfolio includes interactive JS scripts located in app.js for the Navbar/Sidebar toggle, the project flipper on the main page, and smooth scrolling.
+  The portfolio is styled with CSS3 located in styles.css, also included is normalize.css which is MIT licensed This portfolio includes interactive JS scripts located in app.js for the Navbar/Sidebar toggle, the project flipper on the main page, and smooth scrolling.
 
-At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com (certificates in ./about.html).
+  At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com (certificates in ./about.html).
 
-Projects that have been completed will be uploaded and will range from HTML, CSS, JS, MERN stack, and others for the duration of the course to showcase my work.
+  All images used for the hero, and the project flipper were obtained from pexels.com (open source for images).
 
-I will also be adding independent projects and code as I make my journey into web development. 
+  Projects that have been completed will be uploaded and will range from HTML, CSS, JS, MERN stack, and others for the duration of the course to showcase my work.
 
-Certifications and CEU's may be located in the "About" page on the portfolio.
+  I will also be adding independent projects and code as I make my journey into web development. 
+
+  Certifications and CEU's may be located in the "About" page on the portfolio.
 
 #DEPLOYMENT
 
@@ -26,7 +28,7 @@ Certifications and CEU's may be located in the "About" page on the portfolio.
 
 #LICENSE
 
-MIT License
+  MIT License
 
 Copyright (c) 2020 John Williams
 
