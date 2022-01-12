@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact || Will Hicks</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/958a36a0a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
+        <!--navbar-->
+        <!-- floating nav bars-->
+        <span class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i></span>
+        <!-- end floating nav bars-->
+      <nav class="navbar" id="navbar">
+        <div class="navbar-header">
+          <span class="nav-close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </span>
+          </div>
+          <!-- links -->
+          <ul class="nav-items">
+            <li><a href="./index.html" class="nav-link">home</a></li>
+            <li><a href="./about.html" class="nav-link">about</a></li>
+            <li><a href="./projects.html" class="nav-link">projects</a></li>
+            <li><a href="https://xpro.mit.edu" class="nav-link">mit xpro</a></li>
+          </ul>
+          <!-- social media -->
+          <ul class="social-links">
+            <li>
+              <a href="https://www.facebook.com" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/william-hicks-925785144" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.github.com/willh87" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>     
+      </nav>
+      <!-- end navbar-->
+      <!-- header -->
+      <header class="contact-header">
+          <div class="logo logo-center">
+              <h2>contact<span> me</span></h2>
+              <div class="underline contact-underline"></div>
+          </div>
+      </header>
+      <!-- end header -->
+      <section class="section section-center contact-center">
+          <article class="contact-info">
+              <div class="contact-container">
+              <button class="btn contact-btn"><a type='email' href="mailto:will.hicks87@gmail.com"><i class="fas fa-envelope"></i></a></button>
+              <p>please feel free to email me directly to start a conversation</p>
+              <div class="underline contact-underline"></div>
+              <p>You can also find reach me via <a href="https://www.linkedin.com/in/william-hicks-925785144">LinkedIn</a> or use the contact form located on this page. <br> I look forward to hearing from you.</p>
+            </div>
+          </article>
+      <!-- form contact-->
     <form action="" class="form">
         <h4>contact form</h4>
         <div class="form-row">
@@ -29,5 +101,41 @@
         </div>
         <button type="submit" class="btn btn-block">submit</button>
     </form>
+</section>
+        <!-- footer -->
+        <footer class="footer">
+            <!-- social icons-->
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.facebook.com" class="social-icon">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/william-hicks-925785144" class="social-icon">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com/willh87" class="social-icon">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <p>&copy; <span id="date"></span> will hicks. all rights reserved <br>
+            MIT license located in Github readme</p>
+          </footer>
+        <!-- end footer -->
+    <script src="./app.js"></script>
 </body>
 </html>
