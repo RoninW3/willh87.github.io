@@ -1,0 +1,86 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+/*  eyes div  */
+.eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+/*  styling for eye */
+.eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s linear;
+}
+
+/* spin effect */
+.eye:hover {
+    background: rgb(187, 113, 3);
+    transform: scale(1.03) rotate(360deg);
+}
+
+/* pupils */
+.ball {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 0.1s ease-in-out;
+}
+
+/* color change for pupil */
+.ball:hover {
+    background: rgb(97, 13, 31); 
+}
+
+/* BTN container */
+.container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    height: 5rem;
+    width: 100vw;
+    background: #000000; 
+}
+
+.btn {
+    padding: 0.5rem 0.8rem;
+    background: white;
+    color: #000;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    z-index: 100;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.home-btn a{
+    text-decoration: none;
+    color: inherit; 
+}
