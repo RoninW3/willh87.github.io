@@ -7,7 +7,7 @@ Thank you for visiting my personal page as I make the journey to become a full s
 
 The portfolio is styled with CSS3 located in styles.css, also included is normalize.css which is MIT licensed This portfolio includes interactive JS scripts located in app.js for the Navbar/Sidebar toggle, the project flipper on the main page, and smooth scrolling.
 
-At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com (John Smilga, instructor).
+At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com (certificates in ./about.html).
 
 Projects that have been completed will be uploaded and will range from HTML, CSS, JS, MERN stack, and others for the duration of the course to showcase my work.
 
