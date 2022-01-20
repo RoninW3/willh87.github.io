@@ -1,7 +1,7 @@
 # willh87.github.io
-PORTFOLIO
+# PORTFOLIO
 
-#ABOUT
+# ABOUT
 
   Thank you for visiting my personal page as I make the journey to become a full stack developer. I am currently a student with MIT XPRO. 
 
@@ -21,16 +21,16 @@ PORTFOLIO
 
   Certifications and CEU's may be located in the "About" page on the portfolio.
 
-#DEPLOYMENT
+# DEPLOYMENT
 
   Please visit https://willh87.github.io to view the portfolio in it's entirety. 
   
-#IMRPOVEMENTS
+# IMRPOVEMENTS
 
   Can't wait to add improvements and projects from React, MongoDB, Express and Node.js as I learn them!
 
 
-#LICENSE
+# LICENSE
 
   MIT License
 
