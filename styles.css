@@ -335,6 +335,7 @@ Header - index.html
   color: var(--clr-primary-300);
   display: grid;
   place-items: center;
+  text-align: center;
   text-shadow: 2px 10px 5px var(--black);
   letter-spacing: var(--letterSpacing);
   transition: var(--transition);
