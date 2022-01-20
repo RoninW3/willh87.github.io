@@ -541,8 +541,10 @@ navbar float
   z-index: 2;
   box-shadow: var(--shadow-2);
   transform: translateX(-100%);
+  transition: var(--transition);
 }
 .showNav {
+  transition: var(--transition);
   transform: translateX(0);
 }
 .navbar-header {
