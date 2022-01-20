@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact || Will Hicks</title>
+    <title>Projects || Will Hicks</title>
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css">
     <!-- styles -->
@@ -27,7 +27,7 @@
           <ul class="nav-items">
             <li><a href="./index.html" class="nav-link">home</a></li>
             <li><a href="./about.html" class="nav-link">about</a></li>
-            <li><a href="./projects.html" class="nav-link">projects</a></li>
+            <li><a href="./contact.html" class="nav-link">contact</a></li>
             <li><a href="https://xpro.mit.edu" class="nav-link">mit xpro</a></li>
           </ul>
           <!-- social media -->
@@ -64,43 +64,66 @@
       <!-- header -->
       <header class="contact-header">
           <div class="logo logo-center">
-              <h2>contact<span> me</span></h2>
+              <h2>my<span> projects</span></h2>
               <div class="underline contact-underline"></div>
           </div>
       </header>
       <!-- end header -->
-      <section class="section section-center contact-center">
-          <article class="contact-info">
-              <div class="contact-container">
-              <button class="btn contact-btn"><a type='email' href="mailto:will.hicks87@gmail.com"><i class="fas fa-envelope"></i></a></button>
-              <p>please feel free to email me directly to start a conversation</p>
-              <div class="underline contact-underline"></div>
-              <p>You can also reach me via <a href="https://www.linkedin.com/in/william-hicks-925785144">LinkedIn</a> or use the contact form located on this page. <br> I look forward to hearing from you.</p>
-            </div>
-          </article>
-      <!-- form contact-->
-    <form action="https://formspree.io/f/xyyokdoa" class="form" method="POST">
-        <h4>contact form</h4>
-        <div class="form-row">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" placeholder="your name" id="name" class="form-input" name="name">
+      <section class="section section-center project-center">
+  
+    <div class="projects-page-center">
+      <!-- single project -->
+      <article class="single-project">
+        <div class="project-container">
+          <img src="./images/pacman1.jpg" class="img project-img" alt="single project">
+          <a href="https://www.github.com/willh87" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
-        <div class="form-row">
-            <label for="number" class="form-label">Number</label>
-            <input type="text" id="number" class="form-input" name="number">
+        <div class="project-details">
+          <h4>Pacmen</h4>
+          <p>Create multiple Pacmen dynamically in your browser. <br> View the source code and README by clicking on the Github icon.</p>
+          <div class="project-footer">
+            <a href="./Pacmen/index.html" class="btn project-btn">try demo</a>
+          </div>
         </div>
-        <div class="form-row">
-            <label for="email" class="form-label">Email</label>
-            <input type="email"  id="email" class="form-input" name="email">
-            <small class="form-alert">please provide a value</small>
+      </article>
+      <!-- end of single project -->
+           <!-- single project -->
+      <article class="single-project">
+        <div class="project-container">
+          <img src="./images/eyes1.jpg" class="img project-img" alt="single project">
+          <a href="https://www.github.com/willh87" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
-        <div class="form-row">
-            <label for="textarea" class="form-label">Textarea</label>
-            <textarea class="form-textarea" name="textarea">
-            </textarea>
+        <div class="project-details">
+          <h4>Eyes</h4>
+          <p>Create multiple eyes dynamically in your browser. <br> View the source code and README by clicking on the Github icon.</p>
+          <div class="project-footer">
+            <a href="./Eyes/index.html" class="btn project-btn">try demo</a>
+          </div>
         </div>
-        <button type="submit" class="btn btn-block">submit</button>
-    </form>
+      </article>
+      <!-- end of single project -->
+           <!-- single project -->
+      <article class="single-project">
+        <div class="project-container">
+          <img src="./images/bus1.jpg" class="img project-img" alt="single project">
+          <a href="https://www.github.com/willh87" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project-details">
+          <h4>bus tracker</h4>
+          <p>UI that tracks bus stops between MIT and Harvard with Mapbox API. <br> View the source code and README by clicking on the Github icon.</p>
+          <div class="project-footer">
+            <a href="./Bus-Tracker/index.html" class="btn project-btn">try demo</a>
+          </div>
+        </div>
+      </article>
+      <!-- end of single project -->
+    </div>
 </section>
         <!-- footer -->
         <footer class="footer">

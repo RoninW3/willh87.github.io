@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will's Portfolio</title>
+    <title>Home || Will Hicks</title>
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css">
     <!-- main css-->
     <link rel="stylesheet" href="./styles.css">
     <!-- font awesome -->
-    <!-- <link
-    rel="stylesheet"
-    href="./fontawesome-free-5.15.4-web/css/all.min.css"
-  /> -->
   <script src="https://kit.fontawesome.com/958a36a0a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -47,7 +43,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" class="social-icon">
+            <a href="https://www.twitter.com/hex_medic" class="social-icon">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
@@ -74,7 +70,9 @@
             <h4>full stack web development</h4>
             <div class="underline"></div>
             <div class="hero-btn-container">
-                <button class="btn hero-btn">explore</button>
+              <a href="#skills">
+                <button class="btn hero-btn" type="button">explore</button>
+                </a>
             </div>
             </div>
             <!-- end hero-->
@@ -83,10 +81,10 @@
     </header>
     <!-- end header -->
     <!-- skills cards -->
-    <section class="section skills-section">
+    <section class="section skills-section" id="skills">
         <!--section title-->
         <div class="section-title">
-          <h2>services</h2>
+          <h2>skills</h2>
           <div class="underline"></div>
         </div>
         <!-- end of section title-->
@@ -96,7 +94,7 @@
             <i class="fas fa-code service-icon"></i>
             <h4>front end</h4>
             <div class="underline"></div>
-            <p>Front end development with skills in HTML5, CSS3, and Javascript. Fully interactive front ends to capture clients attention and provide positive user experiences. React coming soon!</p>
+            <p>Front end development with HTML5, CSS3, and Javascript. Fully interactive front ends to capture clients attention and provide positive user experiences. React coming soon!</p>
           </article>
           <!-- end of single service -->
            <!-- single service -->
@@ -104,7 +102,7 @@
             <i class="fab fa-sketch service-icon"></i>
             <h4>design</h4>
             <div class="underline"></div>
-            <p>Vibrant colors and palattes for capturing your client's eye related to your project. Colors and design have a psychological impact, may sure it fits what you want.</p>
+            <p>Vibrant colors and palattes for capturing your client's eye related to your project. Colors and design have a psychological impact, make sure it fits your product.</p>
           </article>
           <!-- end of single service -->
            <!-- single service -->
@@ -120,7 +118,7 @@
 
     <!-- end skills cards -->
     <!-- about section-->
-    <section class="section about">
+    <section class="section about" id="about">
         <div class="section-center about-center">
           <!-- about img -->
           <article class="about-img">
@@ -186,7 +184,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" class="social-icon">
+            <a href="https://www.twitter.com/hex_medic" class="social-icon">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
@@ -200,9 +198,11 @@
               <i class="fab fa-instagram"></i>
             </a>
           </li>
+          <li>
+            <a href="mailto:will.hicks87@gmail.com" type="email" class="social-icon"><i class="fas fa-envelope"></i></a>
+          </li>
         </ul>
-        <p>&copy; <span id="date"></span> will hicks. all rights reserved <br>
-        MIT license located in Github readme</p>
+        <p>&copy; <span id="date"></span> will hicks. all rights reserved </p>
       </footer>
     <!-- end footer -->
     <script src="./app.js"></script>
