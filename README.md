@@ -5,9 +5,9 @@
 
   Thank you for visiting my personal page as I make the journey to become a full stack developer. I am currently a student with MIT XPRO. 
 
-  The portfolio is styled with CSS3 located in styles.css, also included is normalize.css which is MIT licensed This portfolio includes interactive JS scripts located in app.js for the Navbar/Sidebar toggle, the project flipper on the main page, and smooth scrolling.
+  The portfolio is styled with CSS3 located in styles.css, also included is normalize.css which is MIT licensed. This portfolio includes interactive JS scripts located in app.js for the Navbar/Sidebar toggle, the project flipper on the main page.
 
-  At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com (certificates in ./about.html).
+  At this time there has been no use of BootStrap and has been coded from scratch using knowledge garnered at MIT xPRO and several independent courses at Udemy.com. UDEMY Profile : https://www.udemy.com/user/william-hicks-332/
 
   All images used for the hero, and the project flipper were obtained from pexels.com (open source for images).
    Hero BCG - https://www.pexels.com/@tara-winstead
@@ -19,8 +19,6 @@
 
   I will also be adding independent projects and code as I make my journey into web development. 
 
-  Certifications and CEU's may be located in the "About" page on the portfolio.
-
 # DEPLOYMENT
 
   Please visit https://willh87.github.io to view the portfolio in it's entirety. 
@@ -28,6 +26,10 @@
 # IMRPOVEMENTS
 
   Can't wait to add improvements and projects from React, MongoDB, Express and Node.js as I learn them!
+  
+  As more projects will be posted, a sorting function with dyanmic DOM buttons to filter JS, HTML/CSS, React, Node.js projects will be added.
+  
+  Certifications and CEU's to be added to ./about.html
 
 
 # LICENSE
