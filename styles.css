@@ -631,6 +631,7 @@ Skills section - index.html
 }
 .service p {
   transition: var(--transition);
+  min-height: 10rem;
 }
 .service:hover {
   background: var(--clr-primary-100);
