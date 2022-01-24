@@ -656,6 +656,9 @@ Skills section - index.html
   .services-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .service p {
+    min-height: 15rem;
+  }
 }
 
 /* 
