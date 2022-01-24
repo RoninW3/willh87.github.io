@@ -1,6 +1,10 @@
+// vars
+
 let focus = 0;
 let dir = 0;
 let pos = 0;
+
+// img array
 const pacArray = [
   ["./images/PacMan1.png", "./images/PacMan2.png"],
   ["./images/PacMan3.png", "./images/PacMan4.png"],
@@ -50,6 +54,8 @@ function update() {
   });
   setTimeout(update, 75);
 }
+
+// checks boundaries and reverses image dir
 
 function checkCollisions(item) {
   if (
