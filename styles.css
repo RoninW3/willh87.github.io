@@ -674,8 +674,18 @@ Skills section - index.html
 }
 .about-img {
   width: 40vw;
-  max-width: 35rem;
+  max-width: 25rem;
+  min-height: 15rem;
+  max-height: 25rem;
 }
+
+.youtube {
+  min-height: inherit;
+  max-height: inherit;
+  width: inherit;
+  max-width: inherit;
+}
+
 .hero-photo {
   width: 100%;
   -o-object-fit: cover;
